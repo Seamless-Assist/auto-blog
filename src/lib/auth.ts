@@ -44,7 +44,8 @@ export async function createSession(user: SessionUser) {
   
   const token = encrypt(sessionData);
 
-  cookies().set("seamless_session", token, {
+  const cookieStore = await cookies();
+  cookieStore.set("seamless_session", token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
@@ -55,12 +56,14 @@ export async function createSession(user: SessionUser) {
 
 // Clears the session cookie
 export async function destroySession() {
-  cookies().set("seamless_session", "", { expires: new Date(0), path: "/" });
+  const cookieStore = await cookies();
+  cookieStore.set("seamless_session", "", { expires: new Date(0), path: "/" });
 }
 
 // Verifies session cookie and returns decoded user session
 export async function getSession(): Promise<SessionUser | null> {
-  const sessionToken = cookies().get("seamless_session")?.value;
+  const cookieStore = await cookies();
+  const sessionToken = cookieStore.get("seamless_session")?.value;
   if (!sessionToken) return null;
   
   try {

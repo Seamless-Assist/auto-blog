@@ -1,0 +1,453 @@
+{
+  "communities": {
+    "0": [
+      "briefs_route_get",
+      "lib_auth_checkauth",
+      "lib_auth_createsession",
+      "lib_auth_decrypt",
+      "lib_auth_destroysession",
+      "lib_auth_encrypt",
+      "lib_auth_encryption_key",
+      "lib_auth_getsession",
+      "lib_auth_sessionuser",
+      "lib_db_connecttodatabase",
+      "lib_db_createmockdbinterface",
+      "lib_db_inmemorystore",
+      "lib_sheets_getcontentpipeline",
+      "lib_sheets_getgscperformance",
+      "lib_sheets_savegscperformance",
+      "login_route_post",
+      "logout_route_post",
+      "logs_route_delete",
+      "logs_route_get",
+      "regenerate_route_post",
+      "report_route_get",
+      "report_route_post",
+      "reset_route_get",
+      "settings_route_get",
+      "settings_route_post",
+      "src_app_api_auth_login_route_ts",
+      "src_app_api_auth_logout_route_ts",
+      "src_app_api_auth_user_route_ts",
+      "src_app_api_briefs_route_ts",
+      "src_app_api_drafts_regenerate_route_ts",
+      "src_app_api_logs_route_ts",
+      "src_app_api_report_route_ts",
+      "src_app_api_reset_route_ts",
+      "src_app_api_settings_route_ts",
+      "src_lib_auth_ts",
+      "src_lib_db_ts",
+      "user_route_get"
+    ],
+    "1": [
+      "approve_route_post",
+      "generate_route_post",
+      "lib_cronrunner_logevent",
+      "lib_cronrunner_runapprovebriefandwritedraft",
+      "lib_cronrunner_runapprovetopicandgeneratebrief",
+      "lib_cronrunner_runmonthlyseoreport",
+      "lib_cronrunner_runrejectandregeneratebrief",
+      "lib_cronrunner_toidquery",
+      "lib_gemini_callgemini",
+      "lib_gemini_draftresponse",
+      "lib_gemini_draftselfcheck",
+      "lib_gemini_generatebrief",
+      "lib_gemini_generatedraft",
+      "lib_gemini_generatemonthlyreport",
+      "lib_gemini_generatetopics",
+      "lib_gemini_model_endpoints",
+      "lib_gemini_regeneratebrief",
+      "lib_gemini_seobrief",
+      "lib_gemini_topicidea",
+      "lib_sheets_appendpipelinerow",
+      "lib_sheets_updatepipelinerow",
+      "lib_slack_notifybriefready",
+      "lib_slack_notifydraftfailure",
+      "lib_slack_notifydraftready",
+      "lib_slack_notifylive",
+      "lib_slack_notifyscheduled",
+      "lib_slack_notifytopicideas",
+      "lib_slack_remindgsc",
+      "lib_slack_sendmonthlyreport",
+      "lib_slack_sendslackmessage",
+      "review_route_post",
+      "src_app_api_briefs_review_route_ts",
+      "src_app_api_report_generate_route_ts",
+      "src_app_api_topics_approve_route_ts",
+      "src_lib_cronrunner_ts",
+      "src_lib_gemini_ts",
+      "src_lib_slack_ts"
+    ],
+    "2": [
+      "cron_route_get",
+      "lib_cronrunner_runpostlivesynccheck",
+      "lib_cronrunner_runweeklytopicgeneration",
+      "lib_sheets_addpublishedpost",
+      "lib_sheets_appendtopicideas",
+      "lib_sheets_contentpipelinerow",
+      "lib_sheets_deletepipelinerow",
+      "lib_sheets_getmonthlystrategy",
+      "lib_sheets_getpublishedposts",
+      "lib_sheets_gettopicideas",
+      "lib_sheets_gscperformancerow",
+      "lib_sheets_publishedpost",
+      "lib_sheets_strategynote",
+      "lib_sheets_toidquery",
+      "lib_sheets_topicidearow",
+      "lib_sheets_updatemonthlystrategy",
+      "lib_sheets_updatetopicstatus",
+      "live_check_route_post",
+      "src_app_api_cron_route_ts",
+      "src_app_api_live_check_route_ts",
+      "src_app_api_topics_route_ts",
+      "src_lib_sheets_ts",
+      "topics_route_get",
+      "topics_route_post"
+    ],
+    "3": [
+      "auto_blog_package_dependencies",
+      "auto_blog_package_dependencies_lucide_react",
+      "auto_blog_package_dependencies_mongodb",
+      "auto_blog_package_dependencies_next",
+      "auto_blog_package_dependencies_pg",
+      "auto_blog_package_dependencies_react",
+      "auto_blog_package_dependencies_react_dom",
+      "auto_blog_package_dependencies_react_hot_toast",
+      "auto_blog_package_devdependencies",
+      "auto_blog_package_devdependencies_types_node",
+      "auto_blog_package_devdependencies_types_react",
+      "auto_blog_package_devdependencies_types_react_dom",
+      "auto_blog_package_devdependencies_typescript",
+      "auto_blog_package_name",
+      "auto_blog_package_private",
+      "auto_blog_package_scripts",
+      "auto_blog_package_scripts_build",
+      "auto_blog_package_scripts_dev",
+      "auto_blog_package_scripts_start",
+      "auto_blog_package_version",
+      "package_json"
+    ],
+    "4": [
+      "auto_blog_tsconfig_compileroptions",
+      "auto_blog_tsconfig_compileroptions_allowjs",
+      "auto_blog_tsconfig_compileroptions_esmoduleinterop",
+      "auto_blog_tsconfig_compileroptions_incremental",
+      "auto_blog_tsconfig_compileroptions_isolatedmodules",
+      "auto_blog_tsconfig_compileroptions_jsx",
+      "auto_blog_tsconfig_compileroptions_lib",
+      "auto_blog_tsconfig_compileroptions_module",
+      "auto_blog_tsconfig_compileroptions_moduleresolution",
+      "auto_blog_tsconfig_compileroptions_noemit",
+      "auto_blog_tsconfig_compileroptions_paths",
+      "auto_blog_tsconfig_compileroptions_plugins",
+      "auto_blog_tsconfig_compileroptions_resolvejsonmodule",
+      "auto_blog_tsconfig_compileroptions_skiplibcheck",
+      "auto_blog_tsconfig_compileroptions_strict",
+      "auto_blog_tsconfig_exclude",
+      "auto_blog_tsconfig_include",
+      "auto_blog_tsconfig_paths",
+      "tsconfig_json"
+    ],
+    "5": [
+      "lib_cronrunner_runhourlywpschedulingsync",
+      "lib_wordpress_createwpdraft",
+      "lib_wordpress_executelocalmockdraft",
+      "lib_wordpress_executelocalmocklive",
+      "lib_wordpress_executelocalmockpending",
+      "lib_wordpress_executelocalmockschedule",
+      "lib_wordpress_fetchwpliveposts",
+      "lib_wordpress_fetchwppendingposts",
+      "lib_wordpress_getmockwppromise",
+      "lib_wordpress_getwpsettings",
+      "lib_wordpress_iswpreachable",
+      "lib_wordpress_mockwppost",
+      "lib_wordpress_schedulewppost",
+      "lib_wordpress_setmockpostpending",
+      "lib_wordpress_setmockpostpublished",
+      "scheduler_route_get",
+      "scheduler_route_post",
+      "src_app_api_scheduler_route_ts",
+      "src_lib_wordpress_ts"
+    ],
+    "6": [
+      "app_layout_metadata",
+      "app_layout_rootlayout",
+      "components_clientapplayout_clientapplayout",
+      "components_loginview_loginview",
+      "components_loginview_loginviewprops",
+      "components_sidebar_sidebar",
+      "components_sidebar_sidebarprops",
+      "src_app_layout_tsx",
+      "src_components_clientapplayout_tsx",
+      "src_components_loginview_tsx",
+      "src_components_sidebar_tsx"
+    ],
+    "7": [
+      "components_dashboardview_dashboardview",
+      "components_dashboardview_logitem",
+      "components_dashboardview_pipelinestats",
+      "scout_page_scoutpage",
+      "src_app_scout_page_tsx",
+      "src_components_dashboardview_tsx"
+    ],
+    "8": [
+      "briefs_page_briefspage",
+      "components_briefreviewerview_briefreviewerview",
+      "components_briefreviewerview_pipelinerow",
+      "src_app_briefs_page_tsx",
+      "src_components_briefreviewerview_tsx"
+    ],
+    "9": [
+      "components_draftcreatorview_draftcreatorview",
+      "components_draftcreatorview_pipelinerow",
+      "drafts_page_draftspage",
+      "src_app_drafts_page_tsx",
+      "src_components_draftcreatorview_tsx"
+    ],
+    "10": [
+      "app_page_home",
+      "components_marketinghubdashboard_marketinghubdashboard",
+      "components_marketinghubdashboard_marketinghubdashboardprops",
+      "src_app_page_tsx",
+      "src_components_marketinghubdashboard_tsx"
+    ],
+    "11": [
+      "components_schedulerview_schedulerview",
+      "components_schedulerview_wppost",
+      "scheduler_page_schedulerpage",
+      "src_app_scheduler_page_tsx",
+      "src_components_schedulerview_tsx"
+    ],
+    "12": [
+      "components_topicplannerview_topic",
+      "components_topicplannerview_topicplannerview",
+      "src_app_topics_page_tsx",
+      "src_components_topicplannerview_tsx",
+      "topics_page_topicspage"
+    ],
+    "13": [
+      "auto_blog_scratch_reset_db_client",
+      "auto_blog_scratch_reset_db_mongoclient",
+      "auto_blog_scratch_reset_db_run",
+      "scratch_reset_db_js"
+    ],
+    "14": [
+      "cronrunner_runweeklytopicgeneration",
+      "gemini_generatetopics",
+      "sheets_gettopicideas",
+      "slack_notifytopicideas"
+    ],
+    "15": [
+      "components_performanceview_performanceview",
+      "performance_page_performancepage",
+      "src_app_performance_page_tsx",
+      "src_components_performanceview_tsx"
+    ],
+    "16": [
+      "components_settingsview_settingsview",
+      "settings_page_settingspage",
+      "src_app_settings_page_tsx",
+      "src_components_settingsview_tsx"
+    ],
+    "17": [
+      "cronrunner_runapprovetopicandgeneratebrief",
+      "db_connecttodatabase",
+      "scratch_reset_db_run"
+    ],
+    "18": [
+      "cronrunner_runapprovebriefandwritedraft",
+      "wordpress_createwpdraft"
+    ],
+    "19": [
+      "next_env_d_ts"
+    ],
+    "20": [
+      "auth_createsession"
+    ],
+    "21": [
+      "auth_getsession"
+    ],
+    "22": [
+      "cronrunner_runhourlywpschedulingsync"
+    ],
+    "23": [
+      "cronrunner_runpostlivesynccheck"
+    ],
+    "24": [
+      "cronrunner_runmonthlyseoreport"
+    ]
+  },
+  "cohesion": {
+    "0": 0.1111111111111111,
+    "1": 0.13513513513513514,
+    "2": 0.15217391304347827,
+    "3": 0.09523809523809523,
+    "4": 0.10526315789473684,
+    "5": 0.2573099415204678,
+    "6": 0.18181818181818182,
+    "7": 0.3333333333333333,
+    "8": 0.4,
+    "9": 0.4,
+    "10": 0.4,
+    "11": 0.4,
+    "12": 0.4,
+    "13": 0.5,
+    "14": 0.5,
+    "15": 0.5,
+    "16": 0.5,
+    "17": 0.6666666666666666,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0
+  },
+  "gods": [
+    {
+      "id": "lib_db_connecttodatabase",
+      "label": "connectToDatabase()",
+      "degree": 33
+    },
+    {
+      "id": "lib_auth_getsession",
+      "label": "getSession()",
+      "degree": 32
+    },
+    {
+      "id": "auto_blog_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 15
+    },
+    {
+      "id": "lib_cronrunner_runapprovebriefandwritedraft",
+      "label": "runApproveBriefAndWriteDraft()",
+      "degree": 13
+    },
+    {
+      "id": "lib_cronrunner_runweeklytopicgeneration",
+      "label": "runWeeklyTopicGeneration()",
+      "degree": 11
+    },
+    {
+      "id": "lib_cronrunner_runhourlywpschedulingsync",
+      "label": "runHourlyWPSchedulingSync()",
+      "degree": 11
+    },
+    {
+      "id": "lib_cronrunner_runmonthlyseoreport",
+      "label": "runMonthlySEOReport()",
+      "degree": 11
+    },
+    {
+      "id": "lib_cronrunner_runapprovetopicandgeneratebrief",
+      "label": "runApproveTopicAndGenerateBrief()",
+      "degree": 10
+    },
+    {
+      "id": "lib_cronrunner_runpostlivesynccheck",
+      "label": "runPostLiveSyncCheck()",
+      "degree": 10
+    },
+    {
+      "id": "lib_slack_sendslackmessage",
+      "label": "sendSlackMessage()",
+      "degree": 9
+    }
+  ],
+  "surprises": [
+    {
+      "source": "run",
+      "target": "connectToDatabase",
+      "source_files": [
+        "scratch_reset_db.js",
+        "src/lib/db.ts"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "POST()",
+      "target": "getSession()",
+      "source_files": [
+        "src/app/api/live-check/route.ts",
+        "src/lib/auth.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "GET()",
+      "target": "getSession()",
+      "source_files": [
+        "src/app/api/auth/user/route.ts",
+        "src/lib/auth.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `GET()` unexpectedly reaches hub `getSession()`"
+    },
+    {
+      "source": "POST()",
+      "target": "runApproveBriefAndWriteDraft()",
+      "source_files": [
+        "src/app/api/drafts/regenerate/route.ts",
+        "src/lib/cronRunner.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "GET()",
+      "target": "connectToDatabase()",
+      "source_files": [
+        "src/app/api/reset/route.ts",
+        "src/lib/db.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `GET()` unexpectedly reaches hub `connectToDatabase()`"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `connectToDatabase()` connect `Community 0` to `Community 1`, `Community 2`, `Community 5`?",
+      "why": "High betweenness centrality (0.044) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `getSession()` connect `Community 0` to `Community 1`, `Community 2`, `Community 5`?",
+      "why": "High betweenness centrality (0.032) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `runApproveBriefAndWriteDraft()` connect `Community 1` to `Community 0`, `Community 5`?",
+      "why": "High betweenness centrality (0.006) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `{ MongoClient }`, `client`, `name` to the rest of the system?",
+      "why": "69 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13513513513513514 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 3` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.09523809523809523 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

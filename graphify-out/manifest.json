@@ -1,0 +1,242 @@
+{
+  "/Users/swaraj/Documents/projects/auto-blog/scratch_reset_db.js": {
+    "mtime": 1778862135.8039877,
+    "ast_hash": "830a0c9af75f4f51331e9e7ce7b39ed8",
+    "semantic_hash": "830a0c9af75f4f51331e9e7ce7b39ed8"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/next-env.d.ts": {
+    "mtime": 1778685615.200284,
+    "ast_hash": "b5ed9dd8b4c5ba8e5ab8e6a379c15838",
+    "semantic_hash": "b5ed9dd8b4c5ba8e5ab8e6a379c15838"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/package.json": {
+    "mtime": 1778692415.221413,
+    "ast_hash": "6b334e4f93eb4c083c867b3a8f812608",
+    "semantic_hash": "6b334e4f93eb4c083c867b3a8f812608"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/tsconfig.json": {
+    "mtime": 1778685016.1183503,
+    "ast_hash": "3bd7a3770c6b44dbcaab1d2f175db8bd",
+    "semantic_hash": "3bd7a3770c6b44dbcaab1d2f175db8bd"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/layout.tsx": {
+    "mtime": 1778860313.0921576,
+    "ast_hash": "9564cc7a679e0803fa4473a509de920f",
+    "semantic_hash": "9564cc7a679e0803fa4473a509de920f"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/page.tsx": {
+    "mtime": 1778859191.5948844,
+    "ast_hash": "972d3e2efd15f40fe3b9fab1500b351d",
+    "semantic_hash": "972d3e2efd15f40fe3b9fab1500b351d"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/settings/page.tsx": {
+    "mtime": 1778859235.2752955,
+    "ast_hash": "efa644a6c41a8cf5d1f28c35c86bb2da",
+    "semantic_hash": "efa644a6c41a8cf5d1f28c35c86bb2da"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/drafts/page.tsx": {
+    "mtime": 1778859215.7696407,
+    "ast_hash": "260853ae90b686212ce49ee897ddbb0a",
+    "semantic_hash": "260853ae90b686212ce49ee897ddbb0a"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/scheduler/page.tsx": {
+    "mtime": 1778859225.378523,
+    "ast_hash": "4249f216ffee184e783d5958a121b803",
+    "semantic_hash": "4249f216ffee184e783d5958a121b803"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/scout/page.tsx": {
+    "mtime": 1778859202.0710235,
+    "ast_hash": "9a7198b914acb18893c750c739b08486",
+    "semantic_hash": "9a7198b914acb18893c750c739b08486"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/settings/route.ts": {
+    "mtime": 1778687948.8440464,
+    "ast_hash": "9f257306a9030862c60dd21052c7cf6b",
+    "semantic_hash": "9f257306a9030862c60dd21052c7cf6b"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/live-check/route.ts": {
+    "mtime": 1778684747.7739778,
+    "ast_hash": "0cc811b414b6ada17244a8adb5873e4f",
+    "semantic_hash": "0cc811b414b6ada17244a8adb5873e4f"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/auth/logout/route.ts": {
+    "mtime": 1778836698.20363,
+    "ast_hash": "0a6b54db7ed6cc7d131392e562e48636",
+    "semantic_hash": "0a6b54db7ed6cc7d131392e562e48636"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/auth/user/route.ts": {
+    "mtime": 1778684706.4608881,
+    "ast_hash": "6a41f13b9329c8bd27dd43f15ad8bfb6",
+    "semantic_hash": "6a41f13b9329c8bd27dd43f15ad8bfb6"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/auth/login/route.ts": {
+    "mtime": 1778684697.2426226,
+    "ast_hash": "d658ef88dcb62f2730ef7c482e813e81",
+    "semantic_hash": "d658ef88dcb62f2730ef7c482e813e81"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/drafts/regenerate/route.ts": {
+    "mtime": 1778693672.866953,
+    "ast_hash": "1e9566fd4e46e43574b1e86aff996a59",
+    "semantic_hash": "1e9566fd4e46e43574b1e86aff996a59"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/reset/route.ts": {
+    "mtime": 1778862176.4704614,
+    "ast_hash": "c1ffe275365f08d523b1e1f7490e4b22",
+    "semantic_hash": "c1ffe275365f08d523b1e1f7490e4b22"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/scheduler/route.ts": {
+    "mtime": 1778684742.8346844,
+    "ast_hash": "562d024ec1ec15334afedbbaaa948891",
+    "semantic_hash": "562d024ec1ec15334afedbbaaa948891"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/logs/route.ts": {
+    "mtime": 1778684765.5470707,
+    "ast_hash": "4fe458e90411d17d2b00379a5ded46f5",
+    "semantic_hash": "4fe458e90411d17d2b00379a5ded46f5"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/report/route.ts": {
+    "mtime": 1778684753.8320966,
+    "ast_hash": "ecc201668c966c7f93157b7c2aa77a23",
+    "semantic_hash": "ecc201668c966c7f93157b7c2aa77a23"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/report/generate/route.ts": {
+    "mtime": 1778684759.158404,
+    "ast_hash": "3f145cec591f577eda474cd70b616bc7",
+    "semantic_hash": "3f145cec591f577eda474cd70b616bc7"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/cron/route.ts": {
+    "mtime": 1778684784.1331246,
+    "ast_hash": "25ad3cc47bdb5ddb0c88386eeae921a2",
+    "semantic_hash": "25ad3cc47bdb5ddb0c88386eeae921a2"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/topics/route.ts": {
+    "mtime": 1778684719.6941426,
+    "ast_hash": "aaca59ae7ac7c539adb40ec637dc956d",
+    "semantic_hash": "aaca59ae7ac7c539adb40ec637dc956d"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/topics/approve/route.ts": {
+    "mtime": 1778686376.9619305,
+    "ast_hash": "d6d6e839eed280fc960316054eeeadac",
+    "semantic_hash": "d6d6e839eed280fc960316054eeeadac"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/briefs/route.ts": {
+    "mtime": 1778684730.1471689,
+    "ast_hash": "851b8a393179b720e14df01907b8a115",
+    "semantic_hash": "851b8a393179b720e14df01907b8a115"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/api/briefs/review/route.ts": {
+    "mtime": 1778684736.8889558,
+    "ast_hash": "54335b14bab70726cf1df17698beeb30",
+    "semantic_hash": "54335b14bab70726cf1df17698beeb30"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/performance/page.tsx": {
+    "mtime": 1778859227.417039,
+    "ast_hash": "f0f7cbc418e2a691bc9477190a3a9d70",
+    "semantic_hash": "f0f7cbc418e2a691bc9477190a3a9d70"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/topics/page.tsx": {
+    "mtime": 1778859204.09867,
+    "ast_hash": "1afb19f91c7dc65f103b790222bd48b7",
+    "semantic_hash": "1afb19f91c7dc65f103b790222bd48b7"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/app/briefs/page.tsx": {
+    "mtime": 1778859213.733163,
+    "ast_hash": "22413d487c5042c192054bdafdfb0de4",
+    "semantic_hash": "22413d487c5042c192054bdafdfb0de4"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/SchedulerView.tsx": {
+    "mtime": 1778770789.2309585,
+    "ast_hash": "11381ad5e45432e30ea87caf1b0395e1",
+    "semantic_hash": "11381ad5e45432e30ea87caf1b0395e1"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/ClientAppLayout.tsx": {
+    "mtime": 1778859165.5331602,
+    "ast_hash": "67546dcf18ecb963a4e37215489878c9",
+    "semantic_hash": "67546dcf18ecb963a4e37215489878c9"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/SettingsView.tsx": {
+    "mtime": 1778692837.369632,
+    "ast_hash": "0ee7a95962bc5df8e26ed4623252c7cf",
+    "semantic_hash": "0ee7a95962bc5df8e26ed4623252c7cf"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/TopicPlannerView.tsx": {
+    "mtime": 1778862233.0690713,
+    "ast_hash": "a906a1f247efc41a622f6fe52509f797",
+    "semantic_hash": "a906a1f247efc41a622f6fe52509f797"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/LoginView.tsx": {
+    "mtime": 1778684861.0299108,
+    "ast_hash": "2bc679aaf8d204d0f27dc3093f00f7b0",
+    "semantic_hash": "2bc679aaf8d204d0f27dc3093f00f7b0"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/MarketingHubDashboard.tsx": {
+    "mtime": 1778860175.4588156,
+    "ast_hash": "5222568519da80f68726eb756d73af87",
+    "semantic_hash": "5222568519da80f68726eb756d73af87"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/PerformanceView.tsx": {
+    "mtime": 1778690658.8162725,
+    "ast_hash": "606b9184c825b3287bae82e39c23b3f4",
+    "semantic_hash": "606b9184c825b3287bae82e39c23b3f4"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/DashboardView.tsx": {
+    "mtime": 1778770673.5397146,
+    "ast_hash": "c4124c1170790e5ae319a5000f6b18ff",
+    "semantic_hash": "c4124c1170790e5ae319a5000f6b18ff"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/BriefReviewerView.tsx": {
+    "mtime": 1778692328.7807643,
+    "ast_hash": "ae1769cd1915a0275037b4494f1c8d16",
+    "semantic_hash": "ae1769cd1915a0275037b4494f1c8d16"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/Sidebar.tsx": {
+    "mtime": 1778770707.7235396,
+    "ast_hash": "69a22da8b4e4e48ce2f417623c14d4ff",
+    "semantic_hash": "69a22da8b4e4e48ce2f417623c14d4ff"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/components/DraftCreatorView.tsx": {
+    "mtime": 1778860346.5915205,
+    "ast_hash": "340124ec4654b1b95087991f323162ec",
+    "semantic_hash": "340124ec4654b1b95087991f323162ec"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/lib/slack.ts": {
+    "mtime": 1778692805.960393,
+    "ast_hash": "1c4b5a1dace7217c6f807cac4aa5cb5c",
+    "semantic_hash": "1c4b5a1dace7217c6f807cac4aa5cb5c"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/lib/cronRunner.ts": {
+    "mtime": 1778862833.8723266,
+    "ast_hash": "4b7c2ccafb8687a04589d61f0630dec2",
+    "semantic_hash": "4b7c2ccafb8687a04589d61f0630dec2"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/lib/gemini.ts": {
+    "mtime": 1778862811.423349,
+    "ast_hash": "9bf90e580dc4946b667b38624e136f18",
+    "semantic_hash": "9bf90e580dc4946b667b38624e136f18"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/lib/sheets.ts": {
+    "mtime": 1778692773.7908983,
+    "ast_hash": "3598213adb31409010e0fad5587c252a",
+    "semantic_hash": "3598213adb31409010e0fad5587c252a"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/lib/wordpress.ts": {
+    "mtime": 1778771571.0844402,
+    "ast_hash": "f2245c9f9819bb6a8a2249f5ab391d82",
+    "semantic_hash": "f2245c9f9819bb6a8a2249f5ab391d82"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/lib/db.ts": {
+    "mtime": 1778692924.0718997,
+    "ast_hash": "e29e7374e36916bed79112095b612218",
+    "semantic_hash": "e29e7374e36916bed79112095b612218"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/src/lib/auth.ts": {
+    "mtime": 1778860373.4307213,
+    "ast_hash": "60035ca1ad5615591a4c11aae802caea",
+    "semantic_hash": "60035ca1ad5615591a4c11aae802caea"
+  },
+  "/Users/swaraj/Documents/projects/auto-blog/README.md": {
+    "mtime": 1778692827.1691873,
+    "ast_hash": "5b5957e03130742483c4b27fdbd3591d",
+    "semantic_hash": "5b5957e03130742483c4b27fdbd3591d"
+  }
+}

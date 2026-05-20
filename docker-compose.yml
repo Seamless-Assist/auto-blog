@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/auto_blog
+      # Pulls these variables from the Coolify environment
+      - GOOGLE_SHEET_ID=${GOOGLE_SHEET_ID}
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - SLACK_WEBHOOK_URL=${SLACK_WEBHOOK_URL}
+      - WORDPRESS_URL=${WORDPRESS_URL}
+      - WORDPRESS_AUTH_HEADER=${WORDPRESS_AUTH_HEADER}
+      - NEXT_PUBLIC_APP_NAME=${NEXT_PUBLIC_APP_NAME:-"Seamless Assist SEO Suite"}
+      - JWT_SECRET=${JWT_SECRET}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+    depends_on:
+      - mongo
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:6.0
+    # No need to map ports to the host machine inside Coolify, it's accessible by 'web' on internal network
+    environment:
+      - MONGO_INITDB_DATABASE=auto_blog
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+
+volumes:
+  mongo_data:
